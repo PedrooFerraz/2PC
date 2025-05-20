@@ -86,7 +86,7 @@ app.post('/start', async (req, res) => {
     }
   }
   // Voto do próprio coordenador
-  votes.push(localVote());
+  votes.push("Commitar");
 
   const decision: 'Commitar' | 'Abortar' = votes.every(v => v === 'Commitar') ? 'Commitar' : 'Abortar';
   console.log(`[${config.port}] Decisão : ${decision}`);
