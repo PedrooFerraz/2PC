@@ -18,6 +18,7 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.4",
     "@types/express": "^5.0.2",
     "@types/node": "^22.15.18",
     "ts-node-dev": "^2.0.0",

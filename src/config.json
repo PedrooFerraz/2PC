@@ -1,5 +1,5 @@
 {
-  "port": 3001,
-  "peers": ["http://localhost:3002"],
+  "port": 3002,
+  "peers": ["https://pig-unified-mongoose.ngrok-free.app", "https://major-rooster-optimum.ngrok-free.app"],
   "commitProbability": 0.8
 }
